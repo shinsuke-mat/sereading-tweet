@@ -1,109 +1,97 @@
-sid,seq,stitle,pid,awd,ptitle,doi,summary
-1,1,Android,1-1,,PRADA: Prioritizing Android Devices for Apps by Mining Large-Scale Usage Data,http://dx.doi.org/10.1145/2884781.2884828,
-1,2,Android,1-2,,Release Planning of Mobile Apps Based on User Reviews,http://dx.doi.org/10.1145/2884781.2884818,
-1,3,Android,1-3,,Toward a Framework for Detecting Privacy Policy Violations in Android Application Code,http://dx.doi.org/10.1145/2884781.2884855,
-1,4,Android,1-4,,Mining Sandboxes,http://dx.doi.org/10.1145/2884781.2884782,
-2,1,Performance,2-1,,Generating Performance Distributions via Probabilistic Symbolic Execution,http://dx.doi.org/10.1145/2884781.2884794,
-2,2,Performance,2-2,,Performance Issues and Optimizations in JavaScript: An Empirical Study,http://dx.doi.org/10.1145/2884781.2884829,
-2,3,Performance,2-3,,Reliability of Run-Time Quality-of-Service Evaluation Using Parametric Model Checking,http://dx.doi.org/10.1145/2884781.2884814,
-2,4,Performance,2-4,,Optimizing Selection of Competing Services with Probabilistic Hierarchical Refinement,http://dx.doi.org/10.1145/2884781.2884861,
-3,1,Empirical,3-1,,The Emerging Role of Data Scientists on Software Development Teams,http://dx.doi.org/10.1145/2884781.2884783,
-3,2,Empirical,3-2,,Belief & Evidence in Empirical Software Engineering,http://dx.doi.org/10.1145/2884781.2884812,
-3,3,Empirical,3-3,,Grounded Theory in Software Engineering Research: A Critical Review and Guidelines,http://dx.doi.org/10.1145/2884781.2884833,
-4,1,Symbolic Execution,4-1,🏆,"On the Techniques We Create, the Tools We Build, and Their Misalignments: A Study of KLEE",http://dx.doi.org/10.1145/2884781.2884835,
-4,2,Symbolic Execution,4-2,🏆,Guiding Dynamic Symbolic Execution toward Unverified Program Executions,http://dx.doi.org/10.1145/2884781.2884843,
-4,3,Symbolic Execution,4-3,,Synthesizing Framework Models for Symbolic Execution,http://dx.doi.org/10.1145/2884781.2884856,
-4,4,Symbolic Execution,4-4,,Type-Aware Concolic Testing of JavaScript Programs,http://dx.doi.org/10.1145/2884781.2884859,
-5,1,Compilers and Emerging Trends,5-1,,An Empirical Comparison of Compiler Testing Techniques,http://dx.doi.org/10.1145/2884781.2884878,"コンパイラのバグを探す3つの既存手法を empirical に比較評価した"
-5,2,Compilers and Emerging Trends,5-2,🏆,Termination-Checking for LLVM Peephole Optimizations,http://dx.doi.org/10.1145/2884781.2884809,"ピープホール最適化での
-無限ループをSMTで発見"
-5,3,Compilers and Emerging Trends,5-3,,Finding and Analyzing Compiler Warning Defects,http://dx.doi.org/10.1145/2884781.2884879,コンパイラのワーニングのバグを探す差分テスト手法を提案
-5,4,Compilers and Emerging Trends,5-4,,iDice: Problem Identification for Emerging Issues,http://dx.doi.org/10.1145/2884781.2884795,"急増しているイシューを特徴付ける属性の組み合わせを検出(→早期原因特定→サポートコスト低減)"
-6,1,Energy and Videos,6-1,🏆,Energy Profiles of Java Collections Classes,http://dx.doi.org/10.1145/2884781.2884869,"Javaコレクションの各操作で消費する電力を計測し省電力のためにどのクラスを使うべきかのガイドラインを示した
-"
-6,2,Energy and Videos,6-2,,An Empirical Study of Practitioners' Perspectives on Green Software Engineering,http://dx.doi.org/10.1145/2884781.2884810,ソフトウェア開発の現場で働く人々にエネルギー消費についてのインタビューやアンケートをした
-6,3,Energy and Videos,6-3,,Automated Energy Optimization of HTTP Requests for Mobile Applications,http://dx.doi.org/10.1145/2884781.2884867,HTTPリクエストの自動集約による，モバイルアプリの消費電力削減
-6,4,Energy and Videos,6-4,,Too Long; Didn't Watch! Extracting Relevant Fragments from Software Development Video Tutorials,http://dx.doi.org/10.1145/2884781.2884824,長いチュートリアル動画を見やすくする仕組みの提案
-7,1,Open Source,7-1,,Overcoming Open Source Project Entry Barriers with a Portal for Newcomers,http://dx.doi.org/10.1145/2884781.2884806,新規開発者の参入障壁を取り除くために新規開発者向けのポータルを開発し評価実験を行った
-7,2,Open Source,7-2,🏆,Work Practices and Challenges in Pull-Based Development: The Contributor's Perspective,http://dx.doi.org/10.1145/2884781.2884826,GitHubでPull Requestをする貢献者にインタビュー調査をした
-8,1,Defect Prediction,8-1,,Automatically Learning Semantic Features for Defect Prediction,http://dx.doi.org/10.1145/2884781.2884804,
-8,2,Defect Prediction,8-2,,Cross-Project Defect Prediction Using a Connectivity-Based Unsupervised Classifier,http://dx.doi.org/10.1145/2884781.2884839,プロジェクト間の不具合予測では訓練プロジェクトと対象プロジェクトのデータの不均一性が妨げとなる．そこで訓練データのいらない教師なし分類器を予測に用いることを提案した．
-8,3,Defect Prediction,8-3,,Automated Parameter Optimization of Classification Techniques for Defect Prediction Models,http://dx.doi.org/10.1145/2884781.2884857,
-8,4,Defect Prediction,8-4,,AntMiner: Mining More Bugs by Reducing Noise Interference,http://dx.doi.org/10.1145/2884781.2884870,
-9,1,Synthesis,9-1,,Program Synthesis Using Natural Language,http://dx.doi.org/10.1145/2884781.2884786,"英語で記述した動作を実行する DSL プログラムを生成する．既存の英文・プログラム例の組を学習することで複数の ""英語に似ている"" DSL なら適用可能な手法．"
-9,2,Synthesis,9-2,,SWIM: Synthesizing What I Mean - Code Search and Idiomatic Snippet Synthesis,http://dx.doi.org/10.1145/2884781.2884808,自然言語の検索クエリから C# の API の利用例を出力する．Bing の検索履歴からキーワードと API の関係を学習しておくことで，クラス名などを含まないクエリにも対応する．
-9,3,Synthesis,9-3,,Cross-Supervised Synthesis of Web-Crawlers,http://dx.doi.org/10.1145/2884781.2884842,Web サイトからデータを抽出するクローラ用の XPath 式を，具体的なデータの出現位置の情報をもとに生成する．人間の初期入力は多少不正確でも反復処理で洗練する．
-9,4,Synthesis,9-4,,Automatic Model Generation from Documentation for Java API Functions,http://dx.doi.org/10.1145/2884781.2884881,自然言語 Javadoc 記述からメソッドの動作を再現するコードを生成し，ソースコードがないライブラリ等を含むプログラム解析・検証を可能にする．コンテナ系ライブラリが対象．
-10,1,API,10-1,,Augmenting API Documentation with Insights from Stack Overflow,http://dx.doi.org/10.1145/2884781.2884800,API ドキュメントの不足している部分をStack Overflowの文で 補う
-10,2,API,10-2,🏆,From Word Embeddings to Document Similarities for Improved Information Retrieval in Software Engineering,http://dx.doi.org/10.1145/2884781.2884862,コードに関係する文書で Word Embedding したら いい感じに検索できるようになりました!やったね!
-10,3,API,10-3,,Learning API Usages from Bytecode: A Statistical Approach,http://dx.doi.org/10.1145/2884781.2884873,"APIの使用例を隠れマルコフモデルとして学習することで, 高精度な推薦 (コード補完) を実現"
-11,1,Code Smells,11-1,,"On the ""Naturalness"" of Buggy Code",http://dx.doi.org/10.1145/2884781.2884848,ソースコードのバグを、「不自然な言語」として捉える。言語中の不自然さを計算し、バグ検知の補助として利用することができる。
-11,2,Code Smells,11-2,,Code Anomalies Flock Together: Exploring Code Anomaly Agglomerations for Locating Design Problems,http://dx.doi.org/10.1145/2884781.2884868,Code AnomalyとDesign Problemの関係を調査したところ，DPの発見に役立つCAは他のCAと相互関係のかたまりを作ることがわかった
-11,3,Code Smells,11-3,,Using (Bio)Metrics to Predict Code Quality Online,http://dx.doi.org/10.1145/2884781.2884803,生体データを利用してコード要素の品質的な問題(バグなど)を検出できるか評価を行い、生体データが優れたポテンシャルを持つことを示した
-11,4,Code Smells,11-4,,CUSTODES: Automatic Spreadsheet Cell Clustering and Smell Detection Using Strong and Weak Features,http://dx.doi.org/10.1145/2884781.2884796,"spreadsheetにおいてさまざまな作表スタイルに合わせたsmell検出を行える手法を提案し、CUSTODESというツールを実装、評価を行った。"
-12,1,Architecture,12-1,,"Disseminating Architectural Knowledge on Open-Source Projects: A Case Study of the Book ""Architecture of Open-Source Applications""",http://dx.doi.org/10.1145/2884781.2884792,
-12,2,Architecture,12-2,,Identifying and Quantifying Architectural Debt,http://dx.doi.org/10.1145/2884781.2884822,
-12,3,Architecture,12-3,,Decoupling Level: A New Metric for Architectural Maintenance Complexity,http://dx.doi.org/10.1145/2884781.2884825,
-13,1,Testing 1,13-1,,On The Limits of Mutation Reduction Strategies,http://dx.doi.org/10.1145/2884781.2884787,
-13,2,Testing 1,13-2,,Comparing White-Box and Black-Box Test Prioritization,http://dx.doi.org/10.1145/2884781.2884791,
-13,3,Testing 1,13-3,,How Does Regression Test Prioritization Perform in Real-World Software Evolution?,http://dx.doi.org/10.1145/2884781.2884874,
-13,4,Testing 1,13-4,,The Impact of Test Case Summaries on Bug Fixing Performance: An Empirical Investigation,http://dx.doi.org/10.1145/2884781.2884847,
-14,1,Testing 2,14-1,,Reducing Combinatorics in GUI Testing of Android Applications,http://dx.doi.org/10.1145/2884781.2884853,カバレッジ率を下げずに，AndroidアプリのGUI組み合わせテスト数を下げる
-14,2,Testing 2,14-2,,MobiPlay: A Remote Execution Based Record-and-Replay Tool for Mobile Applications,http://dx.doi.org/10.1145/2884781.2884854,KernelやSDKを変更することなく，実機を用いたAndroidアプリのRecord and Replayを実現
-14,3,Testing 2,14-3,🏆,VDTest: An Automated Framework to Support Testing for Virtual Devices,http://dx.doi.org/10.1145/2884781.2884866,
-14,4,Testing 2,14-4,,Automated Test Suite Generation for Time-Continuous Simulink Models,http://dx.doi.org/10.1145/2884781.2884797,
-15,1,Effort Estimation and Search,15-1,,Missing Data Imputation Based on Low-Rank Recovery and Semi-Supervised Regression for Software Effort Estimation,http://dx.doi.org/10.1145/2884781.2884827,開発データの欠損値補完法として行列 の低ランク化と半教師あり学習を組み 合わせてみた.
-15,2,Effort Estimation and Search,15-2,,Multi-objective Software Effort Estimation,http://dx.doi.org/10.1145/2884781.2884830,"予測誤差と信頼区間を最小化するよう に工数予測モデルを構築したら,精度 が向上した."
-15,3,Effort Estimation and Search,15-3,,A Practical Guide to Select Quality Indicators for Assessing Pareto-Based Search Algorithms in Search-Based Software Engineering,http://dx.doi.org/10.1145/2884781.2884880,"多目的最適化問題において,パレート 最適の評価指標として何を用いるべき かのガイドを提案している."
-16,1,Product Lines,16-1,,A Comparison of 10 Sampling Algorithms for Configurable Systems,http://dx.doi.org/10.1145/2884781.2884793,適切なSampling Algorithmを選択するための，工数と欠陥検出能力のトレードオフに注視した評価
-16,2,Product Lines,16-2,,Featured Model-Based Mutation Analysis,http://dx.doi.org/10.1145/2884781.2884821,Mutation Analysisは計算コストの観点から実用的でないと言われていた通説を覆す手法を提案した
-16,3,Product Lines,16-3,,Feature-Model Interfaces: The Highway to Compositional Analyses of Highly-Configurable Systems,http://dx.doi.org/10.1145/2884781.2884823,
-16,4,Product Lines,16-4,,How Does the Degree of Variability Affect Bug Finding?,http://dx.doi.org/10.1145/2884781.2884831,Variabilityを増加することで，バグ発見にかかる時間および正確さに影響があるかどうかの実験とその考察
-17,1,Repair and Model Synthesis,17-1,,Angelix: Scalable Multiline Program Patch Synthesis via Symbolic Analysis,http://dx.doi.org/10.1145/2884781.2884807,
-17,2,Repair and Model Synthesis,17-2,,An Analysis of the Search Spaces for Generate and Validate Patch Generation Systems,http://dx.doi.org/10.1145/2884781.2884872,
-17,3,Repair and Model Synthesis,17-3,,PAC Learning-Based Verification and Model Synthesis,http://dx.doi.org/10.1145/2884781.2884860,
-17,4,Repair and Model Synthesis,17-4,,StubDroid: Automatic Inference of Precise Data-Flow Summaries for the Android Framework,http://dx.doi.org/10.1145/2884781.2884816,
-18,1,Languages,18-1,,Exploring Language Support for Immutability,http://dx.doi.org/10.1145/2884781.2884798,"不変性を分類する指標を定め，熟練者ソフトウエアエンジニアからのアンケートから特に推移性について着目し，自作したツールで評価
-"
-18,2,Languages,18-2,,The Evolution of C Programming Practices: A Study of the Unix Operating System 1973-2015,http://dx.doi.org/10.1145/2884781.2884799,"Unix開発44年間で開発者が行ってきたことをC言語のソースコードから
-明らかにする"
-18,3,Languages,18-3,,An Empirical Study on the Impact of C++ Lambdas and Programmer Experience,http://dx.doi.org/10.1145/2884781.2884849,"関数型言語由来の機能が人に与える影響を再現可能な
-方法で評価するためには？"
-18,4,Languages,18-4,,Understanding and Fixing Multiple Language Interoperability Issues: The C/Fortran Case,http://dx.doi.org/10.1145/2884781.2884858,
-19,1,Debugging,19-1,,BigDebug: Debugging Primitives for Interactive Big Data Processing in Spark,http://dx.doi.org/10.1145/2884781.2884813,大規模並列データ処理向けのデバッグ機能をSpark向けに実装した
-19,2,Debugging,19-2,,Debugging for Reactive Programming,http://dx.doi.org/10.1145/2884781.2884815,RPで書かれたコードをdependancy graphでモデル化し、dependancy graphを用いてデバッグ
-19,3,Debugging,19-3,,Revisit of Automatic Debugging via Human Focus-Tracking Analysis,http://dx.doi.org/10.1145/2884781.2884834,Spectrum-Based Fault Localizationのデバッグでの有用性について調査した
-19,4,Debugging,19-4,,RETracer: Triaging Crashes by Reverse Execution from Partial Memory Dumps,http://dx.doi.org/10.1145/2884781.2884844,クラッシュレポートの解析ツールを実装し、実際のMicrosoft社製品の開発において評価を行った
-20,1,Requirements,20-1,,"Are ""Non-functional"" Requirements really Non-functional? An Investigation of Non-functional Requirements in Practice",http://dx.doi.org/10.1145/2884781.2884788,
-20,2,Requirements,20-2,,Probing for Requirements Knowledge to Stimulate Architectural Thinking,http://dx.doi.org/10.1145/2884781.2884801,
-20,3,Requirements,20-3,,Risk-Driven Revision of Requirements Models,http://dx.doi.org/10.1145/2884781.2884838,
-20,4,Requirements,20-4,,"Discovering ""Unknown Known"" Security Requirements",http://dx.doi.org/10.1145/2884781.2884785,
-21,1,Dynamic Analysis,21-1,,Behavioral Log Analysis with Statistical Guarantees,http://dx.doi.org/10.1145/2884781.2884805,実行ログからFSA等を構築して性質検査するとき、長いログを全部読み込み解析するとスケールしないため、統計的に信頼できる読み込み打ち切りポイントを見つけてスケールさせる。
-21,2,Dynamic Analysis,21-2,🏆,Efficient Large-Scale Trace Checking Using MapReduce,http://dx.doi.org/10.1145/2884781.2884832,"実行トレースに対する時相論理式チェックを省メモリ化する理論の提案とMapReduce実装・評価
-"
-21,3,Dynamic Analysis,21-3,🏆,Feedback-Directed Instrumentation for Deployed JavaScript Applications,http://dx.doi.org/10.1145/2884781.2884846,「オブジェクト o を生成 → クラッシュ箇所で o を参照」の制御フロー(crash path)情報がデバッグに有益なので、crash pathを少ない (iterativeな) instrumentationで低overheadに見つける。
-21,4,Dynamic Analysis,21-4,,DoubleTake: Fast and Precise Error Detection via Evidence-Based Dynamic Analysis,http://dx.doi.org/10.1145/2884781.2884784,二度見でエラーを検出
-22,1,Security,22-1,,Automated Partitioning of Android Applications for Trusted Execution Environments,http://dx.doi.org/10.1145/2884781.2884817,AndroidアプリケーションにTaint Analysisを適用することで，機密データとそのデータを操作するコードを信頼できる領域に隔離する手法を提案する
-22,2,Security,22-2,,Jumping Through Hoops: Why do Java Developers Struggle with Cryptography APIs?,http://dx.doi.org/10.1145/2884781.2884790,暗号化APIの誤用がセキュリティ脆弱性を引き起こすという前提のもとで，開発者が直面する障壁，実施する暗号化タスク，求められる支援を調査する
-22,3,Security,22-3,,Finding Security Bugs in Web Applications Using a Catalog of Access Control Patterns,http://dx.doi.org/10.1145/2884781.2884836,Webアプリケーションに潜むバグ・脆弱性に対し，Access Control Patternカタログを用いて検出する手法を提案する
-22,4,Security,22-4,,"Reference Hijacking: Patching, Protecting and Analyzing on Unmodified and Non-rooted Android Devices",http://dx.doi.org/10.1145/2884781.2884863,既存ライブラリへの参照を乗っ取ることで，Androidアプリケーションがセキュリティの強化されたライブラリを利用するように切り替える仕組みを実装する
-23,1,Collaborative,23-1,,Building a Theory of Job Rotation in Software Engineering from an Instrumental Case Study,http://dx.doi.org/10.1145/2884781.2884837,ジョブローテションの利点や欠点をインタビュー調査により明らかにし，ジョブローテーションの理論を構築する．
-23,2,Collaborative,23-2,,The Challenges of Staying Together While Moving Fast: An Exploratory Study,http://dx.doi.org/10.1145/2884781.2884871,"困難な問題に直面する現役のエンジニアらの意見から ”Move Fast, Break Things” のトレンドが続くとわかった．よって今後は開発を短期化した上で品質を保つ方法を研究すべきである．"
-23,3,Collaborative,23-3,,The Sky Is Not the Limit: Multitasking Across GitHub Projects,http://dx.doi.org/10.1145/2884781.2884875,複数のプロジェクトに並行に携わること（マルチタスク）が生産性に与える影響を，データ分析とアンケートの両面から調査し，得られた大量の知見を報告した．
-23,4,Collaborative,23-4,,Quantifying and Mitigating Turnover-Induced Knowledge Loss: Case Studies of Chrome and a Project at Avaya,http://dx.doi.org/10.1145/2884781.2884851,開発者がソフトウェア開発プロジェクトから離脱することにより生じる知識の喪失(knowledge loss)とリスクを定量化し，これらを軽減するための方法を提案する．
-24,1,Software Quality,24-1,,Quality Experience: A Grounded Theory of Successful Agile Projects without Dedicated Testers,http://dx.doi.org/10.1145/2884781.2884789,"アジャイルな手法の適用が可能なソフトウェア開発プロジェクトでは、Testerを必要とせず、開発者によるテストと品質維持ができている"
-24,2,Software Quality,24-2,,Code Review Quality: How Developers See It,http://dx.doi.org/10.1145/2884781.2884840,"Mozillaの開発者にコードレビューの質に関する調査を行い，レビューに関してどのような要素を気にしているかを明らかにした"
-24,3,Software Quality,24-3,,Revisiting Code Ownership and Its Relationship with Software Quality in the Scope of Modern Code Review,http://dx.doi.org/10.1145/2884781.2884852,"レビューも考慮に入れたコードの所有者 (Code Ownership) に関する分析
-"
-25,1,Program Analysis,25-1,,IntEQ: Recognizing Benign Integer Overflows via Equivalence Checking across Multiple Precisions,http://dx.doi.org/10.1145/2884781.2884820,
-25,2,Program Analysis,25-2,,Nomen est Omen: Exploring and Exploiting Similarities between Argument and Parameter Names,http://dx.doi.org/10.1145/2884781.2884841,
-25,3,Program Analysis,25-3,,Floating-Point Precision Tuning Using Blame Analysis,http://dx.doi.org/10.1145/2884781.2884850,
-25,4,Program Analysis,25-4,,Crowdsourcing Program Preconditions via a Classification Game,http://dx.doi.org/10.1145/2884781.2884865,
-26,1,Concurrency,26-1,,Scalable Thread Sharing Analysis,http://dx.doi.org/10.1145/2884781.2884811,マルチスレッドプログラムにおいて複数のスレッドが共有するデータへのアクセスが生じるプログラム上の位置を特定するスケーラブルなアルゴリズムを2種類提案する
-26,2,Concurrency,26-2,,Fixing Deadlocks via Lock Pre-Acquisitions,http://dx.doi.org/10.1145/2884781.2884819,
-26,3,Concurrency,26-3,,Coverage-Driven Test Code Generation for Concurrent Classes,http://dx.doi.org/10.1145/2884781.2884876,並行プログラムの不具合を効率良く検出するためのテスト生成手法の提案．既知の不具合に対する実験により，少ないテストで短時間に不具合を検出できることを示している．
-26,4,Concurrency,26-4,,Locking Discipline Inference and Checking,http://dx.doi.org/10.1145/2884781.2884882,@GuardedByアノテーションの意味を形式的に定義し、ツールを実装した。15のOSSで実験を行ない有用性を示した。
-27,1,Maintenance,27-1,,Improving Refactoring Speed by 10X,http://dx.doi.org/10.1145/2884781.2884802,
-27,2,Maintenance,27-2,,SourcererCC: Scaling Code Clone Detection to Big-Code,http://dx.doi.org/10.1145/2884781.2884877,部分的な判定で候補を絞り込むヒューリスティックによって、大規模なコードに適用可能なコードクローン検出ツールを実現した。
-27,3,Maintenance,27-3,,Understanding Asynchronous Interactions in Full-Stack JavaScript,http://dx.doi.org/10.1145/2884781.2884864,
-27,4,Maintenance,27-4,,Shadow of a Doubt: Testing for Divergences between Software Versions,http://dx.doi.org/10.1145/2884781.2884845,
+﻿sid,seq,"session title",pid,awd/JF,"ptitle",link (JFはpreprintへのlink)
+1,1,"Traceability",1-1,,"Semantically Enhanced Software Traceability Using Deep Learning Techniques",http://dl.acm.org/citation.cfm?id=3097370
+1,2,"Traceability",1-2,,"Can Latent Topics in Source Code Predict Missing Architectural Tactics?",http://dl.acm.org/citation.cfm?id=3097371
+1,3,"Traceability",1-3,JF,"Preventing Defects: The Impact of Traceability Completeness on Software Quality",
+1,4,"Traceability",1-4,JF,"Imprecise Matching of Requirements Specifications for Software Services using Fuzzy Logic",https://goo.gl/ELCKcb
+2,1,"Documentation",2-1,,"Analyzing APIs Documentation and Code to Detect Directive Defects",http://dl.acm.org/citation.cfm?id=3097373
+2,2,"Documentation",2-2,,"An Unsupervised Approach for Discovering Relevant Tutorial Fragments for APIs",http://dl.acm.org/citation.cfm?id=3097374
+2,3,"Documentation",2-3,,"Detecting User Story Information in Developer-Client Conversations to Generate Extractive Summaries",http://dl.acm.org/citation.cfm?id=3097375
+2,4,"Documentation",2-4,JF,"Keyword Search for Building Service-Based Systems",
+3,1,"Refactoring",3-1,🏆,"Clone Refactoring with Lambda Expressions",http://dl.acm.org/citation.cfm?id=3097377
+3,2,"Refactoring",3-2,,"Characterizing and Detecting Anti-patterns in the Logging Code",http://dl.acm.org/citation.cfm?id=3097378
+3,3,"Refactoring",3-3,,"Automated Refactoring of Legacy Java Software to Default Methods",http://dl.acm.org/citation.cfm?id=3097379
+3,4,"Refactoring",3-4,JF,"Using Cohesion and Coupling for Software Remodularization: Is it Enough?",http://dl.acm.org/citation.cfm?doid=2943790.2928268
+4,1,"Recommendation Systems",4-1,,"Supporting Software Developers with a Holistic Recommender System",http://dl.acm.org/citation.cfm?id=3097381
+4,2,"Recommendation Systems",4-2,,"Recommending and Localizing Change Requests for Mobile Apps based on User Reviews",http://dl.acm.org/citation.cfm?id=3097382
+4,3,"Recommendation Systems",4-3,,"Machine Learning-Based Detection of Open Source License Exceptions",http://dl.acm.org/citation.cfm?id=3097383
+4,4,"Recommendation Systems",4-4,JF,"Supporting Change Impact Analysis Using a Recommendation System: An Industrial Case Study in a Safety-Critical Context",http://mrksbrg.com/wp-content/uploads/preprints/2016_TSE_ImpRec.pdf
+5,1,"Software Process",5-1,,"Software Development Waste",http://dl.acm.org/citation.cfm?id=3097385
+5,2,"Software Process",5-2,🏆,"Becoming Agile: A Grounded Theory of Agile Transitions in Practice",http://dl.acm.org/citation.cfm?id=3097386
+5,3,"Software Process",5-3,,"From Diversity by Numbers to Diversity as Process: Supporting Inclusiveness in Software Development Teams with Brainstorming",http://dl.acm.org/citation.cfm?id=3097387
+5,4,"Software Process",5-4,JF,"Process Aspects and Social Dynamics of Contemporary Code Review: Insghts from Open Source Development and Industrial Practice at Microsoft",
+6,1,"Studies of Software Developers",6-1,,"Classifying Developers into Core and Peripheral: An Empirical Study on Count and Network Metrics",http://dl.acm.org/citation.cfm?id=3097389
+6,2,"Studies of Software Developers",6-2,🏆,"Decoding the representation of code in the brain: An fMRI study of code review and expertise",http://dl.acm.org/citation.cfm?id=3097390
+6,3,"Studies of Software Developers",6-3,,"Understanding the Impressions, Motivations, and Barriers of One Time Code Contributors to FLOSS Projects: A Survey",http://dl.acm.org/citation.cfm?id=3097391
+6,4,"Studies of Software Developers",6-4,JF,"The Role of Ethnographic studies in Empirical Software Engineering",
+7,1,"Search-Based Software Engineering",7-1,,"Search-driven String Constraint Solving for Vulnerability Detection",http://dl.acm.org/citation.cfm?id=3097393
+7,2,"Search-Based Software Engineering",7-2,,"A Guided Genetic Algorithm for Automated Crash Reproduction",http://dl.acm.org/citation.cfm?id=3097394
+7,3,"Search-Based Software Engineering",7-3,,"Stochastic Optimization of Program Obfuscation",http://dl.acm.org/citation.cfm?id=3097395
+7,4,"Search-Based Software Engineering",7-4,JF,"SIP: Optimal Product Selection from Feature Models using Many-Objective Evolutionary Optimisation",http://www.lsi.us.es/~segura/files/papers/hierons16-tosem.pdf
+8,1,"Web Applications",8-1,,"ZenIDS: Introspective Intrusion Detection for PHP Applications",http://dl.acm.org/citation.cfm?id=3097397
+8,2,"Web Applications",8-2,,"Statically Checking Web API Requests in JavaScript",http://dl.acm.org/citation.cfm?id=3097398
+8,3,"Web Applications",8-3,,"On Cross-stack Configuration Errors",http://dl.acm.org/citation.cfm?id=3097399
+8,4,"Web Applications",8-4,JF,"Finding and Evaluating the Performance Impact of Redundant Data Access for Applications Using ORM",http://petertsehsun.github.io/papers/peter_tse2016.pdf
+9,1,"Concurrency",9-1,,"Efficient Detection of Thread Safety Violations via Coverage-Guided Generation of Concurrent Tests",http://dl.acm.org/citation.cfm?id=3097401
+9,2,"Concurrency",9-2,,"RClassify: Classifying Race Conditions in Web Applications via Deterministic Replay",http://dl.acm.org/citation.cfm?id=3097402
+9,3,"Concurrency",9-3,,"Repairing Event Race Errors by Controlling Nondeterminism",http://dl.acm.org/citation.cfm?id=3097403
+9,4,"Concurrency",9-4,JF,"Hierarchical Program Paths",http://dl.acm.org/citation.cfm?doid=2943790.2963094
+10,1,"Mobile Application Security",10-1,,"Making Malory Behave Maliciously: Targeted Fuzzing of Android Execution Environments",http://dl.acm.org/citation.cfm?id=3097405
+10,2,"Mobile Application Security",10-2,,"A SEALANT for Inter-App Security Holes in Android",http://dl.acm.org/citation.cfm?id=3097406
+10,3,"Mobile Application Security",10-3,,"An Efficient, Robust, and Scalable Approach for Analyzing Interacting Android Apps",http://dl.acm.org/citation.cfm?id=3097407
+10,4,"Mobile Application Security",10-4,JF,"A Taxonomy and Qualitative Comparison of Program Analysis Techniques for Security Assessment of Android Apps",
+11,1,"Mobile Application Development",11-1,,"LibD: Scalable and Precise Third-party Library Detection in Android Markets",http://dl.acm.org/citation.cfm?id=3097409
+11,2,"Mobile Application Development",11-2,,"Analysis and Testing of Notifications in Android Wear Applications",http://dl.acm.org/citation.cfm?id=3097410
+11,3,"Mobile Application Development",11-3,,"Adaptive Unpacking of Android Apps",http://dl.acm.org/citation.cfm?id=3097411
+11,4,"Mobile Application Development",11-4,JF,"A Survey of App Store Analysis for Software Engineering",
+12,1,"Debugging",12-1,,"Performance Diagnosis for Inefficient Loops",http://dl.acm.org/citation.cfm?id=3097413
+12,2,"Debugging",12-2,,"How do Developers Fix Cross-project Correlated Bugs?: A case study on the GitHub scientific Python ecosystem",http://dl.acm.org/citation.cfm?id=3097414
+12,3,"Debugging",12-3,,"Feedback-Based Debugging",http://dl.acm.org/citation.cfm?id=3097415
+12,4,"Debugging",12-4,JF,"A Framework for Evaluating the Results of the SZZ Approach For Identifying Bug-Introducing Changes",
+13,1,"Program Synthesis and Repair",13-1,,"Learning Syntactic Program Transformations from Examples",http://dl.acm.org/citation.cfm?id=3097417
+13,2,"Program Synthesis and Repair",13-2,,"Precise Condition Synthesis for Program Repair",http://dl.acm.org/citation.cfm?id=3097418
+13,3,"Program Synthesis and Repair",13-3,,"Heuristically Matching Solution Spaces of Arithmetic Formulas to Efficiently Reuse Solutions",http://dl.acm.org/citation.cfm?id=3097419
+13,4,"Program Synthesis and Repair",13-4,JF,"Multi-step learning and adaptive search for learning complex model transformations from examples",http://dl.acm.org/citation.cfm?doid=2943790.2904904
+14,1,"Mining Software Repositories",14-1,,"Exploring API Embedding for API Usages and Applications",http://dl.acm.org/citation.cfm?id=3097421
+14,2,"Mining Software Repositories",14-2,,"Unsupervised Software-Specific Morphological Forms Inference from Informal Discussions",http://dl.acm.org/citation.cfm?id=3097422
+14,3,"Mining Software Repositories",14-3,JF,"Generating API Call Rules from Version History and StackOverflow Posts",http://dl.acm.org/citation.cfm?doid=3007747.2990497
+14,4,"Mining Software Repositories",14-4,JF,"Mining Sequences of Developer Interactions in Visual Studio for Usage Smells",
+15,1,"Program Analysis I",15-1,,"Glacier: Transitive Class Immutability for Java",http://dl.acm.org/citation.cfm?id=3097428
+15,2,"Program Analysis I",15-2,,"TRAVIOLI: A Dynamic Analysis for Detecting Data-Structure Traversals",http://dl.acm.org/citation.cfm?id=3097425
+15,3,"Program Analysis I",15-3,,"ProEva: Runtime Proactive Performance Evaluation Based on Continuous-Time Markov Chains",http://dl.acm.org/citation.cfm?id=3097426
+15,4,"Program Analysis I",15-4,JF,"Software Numerical Instability Detection and Diagnosis",
+16,1,"Program Analysis II",16-1,JF,"The Value of Exact Analysis in Requirements Selection",
+16,2,"Program Analysis II",16-2,🏆,"Challenges for Static Analysis of Java Reflection: Literature Review and Empirical Study",http://dl.acm.org/citation.cfm?id=3097429
+16,3,"Program Analysis II",16-3,,"Machine-Learning-Guided Selectively Unsound Static Analysis",http://dl.acm.org/citation.cfm?id=3097430
+16,4,"Program Analysis II",16-4,,"SPAIN: Security Patch Analysis for Binaries - Towards Understanding the Pain and Pills",http://dl.acm.org/citation.cfm?id=3097424
+17,1,"Security, Safety, and Privacy",17-1,,"How Good is a Security Policy against Real Breaches?: A HIPAA Case Study",http://dl.acm.org/citation.cfm?id=3097432
+17,2,"Security, Safety, and Privacy",17-2,,"Adaptive Coverage and Operational Profile-based Testing for Reliability Improvement",http://dl.acm.org/citation.cfm?id=3097433
+17,3,"Security, Safety, and Privacy",17-3,JF,"Mining Privacy Goals from Privacy Policies using Hybridized Task Re-composition",http://dl.acm.org/citation.cfm?doid=2943790.2907942
+17,4,"Security, Safety, and Privacy",17-4,JF,"Safety Evidence Change Impact Analysis in Practice",http://dl.acm.org/citation.cfm?doid=3007747.2980764
+18,1,"Development Tools and Frameworks",18-1,,"RADAR: A Lightweight Tool for Requirements and Architecture Decision Analysis",http://dl.acm.org/citation.cfm?id=3097435
+18,2,"Development Tools and Frameworks",18-2,,"PEoPL: Projectional Editing of Product Lines",http://dl.acm.org/citation.cfm?id=3097436
+18,3,"Development Tools and Frameworks",18-3,,"Do Developers Read Compiler Error Messages?",http://dl.acm.org/citation.cfm?id=3097437
+18,4,"Development Tools and Frameworks",18-4,,"A General Framework for Dynamic Stub Injection",http://dl.acm.org/citation.cfm?id=3097438
+19,1,"Testing and Debugging",19-1,,"An Empirical Study on Mutation, Statement and Branch Coverage Fault Revelation that Avoids the Unreliable Clean Program Assumption",http://dl.acm.org/citation.cfm?id=3097440
+19,2,"Testing and Debugging",19-2,,"Evaluating and Improving Fault Localization",http://dl.acm.org/citation.cfm?id=3097441
+19,3,"Testing and Debugging",19-3,JF,"A Survey on Metamorphic Testing",http://www.lsi.us.es/~segura/files/papers/segura16-tse.pdf
+19,4,"Testing and Debugging",19-4,JF,"A Dissection of Test-Driven Development: Does It Really Matter to Test-First or to Test-Last",
+20,1,"Testing I",20-1,,"Syntactic and Semantic Differencing for Combinatorial Models of Test Designs",http://dl.acm.org/citation.cfm?id=3097443
+20,2,"Testing I",20-2,,"Balancing Soundness and Efficiency for Practical Testing of Configurable Systems",http://dl.acm.org/citation.cfm?id=3097444
+20,3,"Testing I",20-3,,"Automatic Text Input Generation for Mobile Testing",http://dl.acm.org/citation.cfm?id=3097445
+20,4,"Testing I",20-4,,"A Test-Suite Diagnosability Metric for Spectrum-based Fault Localization Approaches",http://dl.acm.org/citation.cfm?id=3097446
+21,1,"Testing II",21-1,,"Automated Transplantation and Differential Testing for Clones",http://dl.acm.org/citation.cfm?id=3097448
+21,2,"Testing II",21-2,🏆,"Code Defenders: Crowdsourcing Effective Tests and Subtle Mutants with a Mutation Testing Game",http://dl.acm.org/citation.cfm?id=3097449
+21,3,"Testing II",21-3,🏆,"Optimizing Test Placement for Module-Level Regression Testing",http://dl.acm.org/citation.cfm?id=3097450
+21,4,"Testing II",21-4,,"Learning to Prioritize Test Programs for Compiler Testing",http://dl.acm.org/citation.cfm?id=3097451
+22,1,"Defect Prediction",22-1,,"What Causes My Test Alarm?: Automatic Cause Analysis for Test Alarms in System and Integration Testing",http://dl.acm.org/citation.cfm?id=3097453
+22,2,"Defect Prediction",22-2,JF,"An Improved SDA based Defect Prediction Framework for both Within-project and Cross-project Class-imbalance Problems",
+22,3,"Defect Prediction",22-3,JF,"An Empirical Comparison of Model Validation Techniques for Defect Prediction Models",http://chakkrit.com/assets/papers/tantithamthavorn2016mvt.pdf
+22,4,"Defect Prediction",22-4,JF,"The Use of Summation to Aggregate Software Metrics Hinders the Performance of Defect Prediction Models",
+23,1,"Formal Methods",23-1,,"Symbolic Model Extraction for Web Application Verification",http://dl.acm.org/citation.cfm?id=3097455
+23,2,"Formal Methods",23-2,,"UML Diagram Refinement",http://dl.acm.org/citation.cfm?id=3097456
+23,3,"Formal Methods",23-3,JF,"Impact-Driven Process Model Repair",https://eprints.qut.edu.au/97668/
+23,4,"Formal Methods",23-4,JF,"GK-Tail+ An Efficient Approach to Learn Precise Software Models",
+24,1,"Software Evolution",24-1,,"Fuzzy Fine-grained Code-history Analysis",http://dl.acm.org/citation.cfm?id=3097458
+24,2,"Software Evolution",24-2,,"To Type or Not to Type: Quantifying Preventable Bugs in JavaScript",http://dl.acm.org/citation.cfm?id=3097459
+24,3,"Software Evolution",24-3,,"The Evolution of Continuous Experimentation in Software Product Development",http://dl.acm.org/citation.cfm?id=3097460
+24,4,"Software Evolution",24-4,JF,"Approaches to Co-Evolution of Metamodels and Models: A Survey",
