@@ -3,30 +3,29 @@
 
 # Tweepyライブラリをインポート
 import tweepy
+import ConfigParser
 
-# 各種キーをセット
-CONSUMER_KEY = 
-CONSUMER_SECRET = 
-ACCESS_TOKEN = 
-ACCESS_SECRET = 
-
-FILE_ASSIGNMENT = '/Users/kyoheif/Documents/work/sereading/assignment.csv'
-FILE_PAPER = '/Users/kyoheif/Documents/work/sereading/paper.csv'
+ini = ConfigParser.SafeConfigParser()
+ini.read('config.ini')
 
 # create api instance
 def create_api():
-    auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
-    auth.set_access_token(ACCESS_TOKEN, ACCESS_SECRET)
+    auth = tweepy.OAuthHandler(ini.get('token', 'consumer_key'), ini.get('token', 'consumer_secret'))
+    auth.set_access_token(ini.get('token', 'access_token'), ini.get('token', 'access_secret'))
     #APIインスタンスを作成
     return tweepy.API(auth)
 
 # get tweet list
 def get_tweet_list():
     import re
+    import datetime
     api = create_api()
-    tweets = api.user_timeline(id='sereading_jp', count=200)
+    #tweets = api.user_timeline(id='sereading_jp', count=200)
+    tweets = api.user_timeline(id=ini.get('general', 'twitter_id'), count=200)
     data = []
     for tweet in tweets:
+        p = tweet.created_at
+        if p < datetime.datetime(int(ini.get('general', 'tweet_year_from')),1,1): continue
         m = re.match("\d?\d-\d", tweet.text)
         if m:
             data.append([m.group(), tweet.favorite_count, tweet.retweet_count])
@@ -38,13 +37,13 @@ def get_ranking_dataframe():
     df = pd.DataFrame(get_tweet_list())
     df.columns = ["pid", "likes", "RTs"]
     df["sum"] = df[["likes", "RTs"]].sum(axis=1)
-    df = df.sort("sum", ascending=False)
+    df = df.sort_values("sum", ascending=False)
     return df
 
 # tweet session
 def tweet_session_name(sid):
     import pandas as pd
-    a = pd.read_csv(FILE_ASSIGNMENT,index_col='sid')
+    a = pd.read_csv(ini.get('file', 'assignment'), index_col='sid')
     text = str(sid) + ". " + a["title"][sid] + " (" + a["name"][sid] + ') #sereading'
     api = create_api()
     api.update_status(status=text)
@@ -52,7 +51,7 @@ def tweet_session_name(sid):
 # tweet paper
 def tweet_paper_name(pid):
     import pandas as pd
-    p = pd.read_csv(FILE_PAPER,index_col='pid')
+    p = pd.read_csv(ini.get('file', 'paper'), index_col='pid')
     text = pid + ": " + p["ptitle"][pid]
     if len(text)>129:
         text = text[0:126] + "..."
