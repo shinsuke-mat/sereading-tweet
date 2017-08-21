@@ -1,0 +1,33 @@
+sid,title,#p,#g,セッション担当,1,2,3,4,拠点,name
+1,Android,4,4,,NAIST松本研OB,NTTD PDA,NAIST松本研OB,NAIST松本研OB,大阪/東京,"NAIST松本研OB, NTTD PDA"
+2,Performance,4,4,NTTD Reeng,,,,,東京,NTTD Reeng
+3,Empirical,3,3,NAIST飯田研,,,,,大阪,NAIST飯田研
+4,Symbolic Execution,4,4,岡山県立大,,,,,大阪,岡山県立大
+5,Compilers and Emerging Trends,4,4,東芝SEL,,,,,東京,東芝SEL
+6,Energy and Videos,4,4,阪大楠本研2,,,,,大阪,阪大楠本研2
+7,Open Source,2,2,和歌山大学大平研究室,,,,,大阪,和歌山大学大平研究室
+8,Defect Prediction,4,4,京工繊そふらぼ,,,,,大阪,京工繊そふらぼ
+9,Synthesis,4,4,阪大井上研,,,,,大阪,阪大井上研
+10,API,3,3,筑波大KDE,,,,,東京,筑波大KDE
+11,Code Smells,4,4,東工大権藤研,,,,,東京,東工大権藤研
+12,Architecture,3,3,岸研野田研合同,,,,,東京,岸研野田研合同
+13,Testing 1,4,4,NTT研究所,,,,,東京,NTT研究所
+14,Testing 2,4,4,NTTD Test,,,,,東京,NTTD Test
+15,Effort Estimation and Search,3,3,NTTD PDA,,,,,東京,NTTD PDA
+16,Product Lines,4,4,名大＋α,,,,,名古屋,名大＋α
+17,Repair and Model Synthesis,4,4,阪大楠本研,,,,,大阪,阪大楠本研
+18,Languages,4,4,熊大/福工大,,,,,福岡,熊大/福工大
+19,Debugging,4,4,九大鵜林亀井研,,,,,福岡,九大鵜林亀井研
+20,Requirements,4,4,東工大・佐伯研,,,,,東京,東工大・佐伯研
+21,Dynamic Analysis,4,4,東工大・小林研,,,,,東京,東工大・小林研
+22,Security,4,4,立命館丸山研,,,,,大阪,立命館丸山研
+23,Collaborative,4,4,NAIST 松本研,,,,,大阪,NAIST 松本研
+24,Software Quality,3,3,富士通研,,,,,東京,富士通研
+25,Program Analysis,4,4,島大神谷研,,,,,大阪,島大神谷研
+26,Concurrency,4,4,名大OB,,,,,名古屋,名大OB
+27,Maintenance,4,4,,サイボウズ,某製作所,サイボウズ,某製作所,東京,"サイボウズ, 某製作所"
+,,,,,,,,,,
+,Total,101,101,,,,,,,
+,Coverage,,1.00,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
