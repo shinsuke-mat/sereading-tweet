@@ -3,9 +3,9 @@
 
 # Tweepyライブラリをインポート
 import tweepy
-import ConfigParser
+import configparser
 
-ini = ConfigParser.SafeConfigParser()
+ini = configparser.SafeConfigParser()
 ini.read('config.ini')
 
 # create api instance
