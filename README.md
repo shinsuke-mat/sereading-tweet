@@ -4,7 +4,8 @@
 
 
 ## 準備
-### assignment.csvとpaper.csvを更新
+### csvを更新
+- assignment.csvとpaper.csv
 - [sereading管理スプレッドシート](http://bit.ly/sereading-icse17-s)からコピペ推奨
 
 ### config.iniを更新
@@ -21,4 +22,11 @@ tweet_paper_name('1-1')
 
 # ランキングの収集
 get_ranking_dataframe()
+```
+
+## 動作環境
+- Python 3.5.4での動作を確認
+```sh
+python -m pip install pandas
+python -m pip install tweepy
 ```
